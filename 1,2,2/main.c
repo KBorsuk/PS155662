@@ -4,4 +4,5 @@
 int main()
 {
     printf("Bardzo\n Dlugi\n Napis\n");
+    return 0;
 }
