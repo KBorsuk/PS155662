@@ -1,0 +1,64 @@
+---
+title: "Zestaw C"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: \usepackage[polish]{babel}
+---
+
+
+1. W folderze DebugC znajduje się projekt z kodem w języku C. W pliku main.c w niektórych linijkach są komentarze. Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu.
+
+*Punktacja: 1 pkt za każdą poprawną linijkę, łącznie 8 pkt.*
+
+2. W folderze PoprawC znajduje się kod w języku C, który nie spełnia zasad kompilacji. Popraw kod modyfikując co najwyżej 2 linijki tak, aby się kompilował. Zabronioną operacją jest komentowanie kodu.
+
+*Punktacja: 6 pkt.*
+
+3. Napisz funkcję, która jako argument otrzymuje trzy dodanie liczby całkowite $m$, $n$ i $k$ a następnie wyświetla na konsoli w jednym wierszu (oddzielone spacją) liczby większe od $m$ i mniejsze od $k$, podzielne przez $n$
+
+Dla $m=4, n=20, k=100$:
+
+```
+20 40 60 80
+```
+
+*Punktacja: 7 pkt.*
+
+4. Napisz program, który z klawiatury wczytuje trzy liczby całkowite i zapisuje wprowadzone wartości do zmiennych `a`, `b`, `c` typu `int`. Następnie za pomocą samodzielnie napisanej funkcji zamień wartości zmiennych (wartość zmiennej a ma być przepisane do zmiennej b, b do c, c do a).
+
+*Punktacja: 7 pkt.*
+
+5. Napisz funkcję przyjmującą jako parametry dwie tablice jednowymiarowe z elementami typu `int` o takich samych rozmiarach. Funkcja powinna zwrócić wartość "1" jeśli tablice mają taką samą wartość najmniejszą lub "0" w przeciwynym wypadku.
+
+*Punktacja: 8 pkt.*
+
+6. Napisz funkcję rekurencyjną, która dla otrzymanej w argumentach
+pary nieujemnych liczb całkowitych $n$ i $m$ zwraca wartość $f(n,m)$
+gdzie funkcja $f$ jest zdefiniowana w następujący sposób:
+
+$$f(n,0)=2,$$
+$$f(0,m)=-1,$$
+$$f(n,m)=f(n-1,m)+ f(n,m-1)+7$$
+
+Przypadki testowe dla funkcji:
+
+| $n$ | $m$ | $f(n,m)$ |
+|---|---|---|
+| 0 | 4 | -1 |
+| 2 | 2 | 38 |
+| 5 | 2 | 164 |
+
+*Punktacja: 7 pkt.*
+
+7. Stwórz program, w którym wykonasz poniższe czynności:
+* stwórz tablicę jednowymiarową 5-elementową typu `double` i uzupełnij ją dowolnym wartościami,
+* wyświetl na konsoli elementy z tablicy posortowane od największej do najmniejszej.
+
+*Punktacja: 7 pkt.*
+
+
+
+
+**Po zakończonej pracy wszystkie pliki z kodem (własne i poprawione) umieść w jednym folderze na puplicie komputera. Spakuj folder i zmień nazwę archiwum pokrywającą się z Twoim numerem indeksu/albumu/legitymacji. Sprawdzeniu podlegać będzie tylko i wyłączenie zawartość archiwum.**
+
