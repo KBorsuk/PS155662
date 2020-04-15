@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1586900825 source:c:\users\piotrek\documents\cbprojekty\debug25\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1586900825 source:c:\users\imperator borsuk\documents\nauka\programowanie\zestaw25\debug25\main.c
+	<stdio.h>
+	<stdlib.h>
+
