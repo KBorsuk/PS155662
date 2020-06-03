@@ -1,0 +1,61 @@
+---
+title: "Zestaw 115"
+lang: pl
+output:
+  word_document: default
+  pdf_document: default
+---
+
+
+1. W folderze Debug115 znajduje się projekt z kodem w języku C. W pliku main.c w niektórych linijkach są komentarze. Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu. Dopisanie nowych linijek i instrukcji poza komentarzami będzie powodowało 0 pkt. Adresy muszą obowiązkowo być w systemie szesnastkowym.
+
+*Punktacja: 7 pkt.*
+
+2. Napisz funkcję, której argumentem jest napis. Funkcja ma zadanie usunąć znaki z napisu o nieparzystych indeksach. Stwórz przypadek testowy.
+
+*Punktacja: 8 pkt.*
+
+Przykład: dla napisu `abc123` ma pozostać `ac2`.
+
+3. Napisz funkcję, której argumentem jest dwuwymiarowa tablica tablic i jej wymiary $n$ i $m$. Funkcja ma zwrócić średnią geometryczną elementów na głównej przekątnej. Stwórz przypadek testowy.
+
+Przykład: dla poniższej tablicy ma wyjść: średnia geometryczna z elementów 2,8,2.
+
+| | | | |
+|---|---|---|---|
+| 2 | 3| 2 | 8 |
+| 1 | 8 | 4 | 3|
+| 3| 5| 2 | 9 |
+
+Info czym jest średnia geometryczna https://pl.wikipedia.org/wiki/%C5%9Arednia_geometryczna
+
+Dla ułatwienia możesz przyjąć, że tablica ma tylko wartości dodatnie (bez potrzeby weryfikowania tego w kodzie).
+
+
+*Punktacja: 12 pkt.*
+
+4. Dane są następujące wyrazy i znaki:
+
+```
+n int int int float fun ** ()[] ,, tab tab2 
+```
+
+Ułóż je we właściwej kolejności, aby otrzymać nagłówek funkcji fun, która dostaje jako argumenty liczbę całkowitą, tablicę tablic oraz tablicę jednowymiarową i zwraca liczbę wymierną.
+ Następnie dodaj dowolną implementację funkcji i stwórz dla niej przypadek testowy.
+
+*Punktacja: 8 pkt.*
+
+
+5. Napisz funkcję, która porównuje dwie listy z głową o elementach typu:
+
+```c
+struct element {
+    int x;
+    struct element * next;
+};
+```
+
+i zwraca 1 jeśli suma sześcianów elementów na obu listach jest równa oraz 0 w pozostałych przypadkach. Stwórz jeden przypadek testowy.
+
+
+*Punktacja: 15 pkt.*
